@@ -82,6 +82,9 @@ strong {
 .container {
     min-width: 400px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-intro {
@@ -99,7 +102,7 @@ strong {
     
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    
 }
 
 input,
@@ -148,7 +151,7 @@ input:focus {
 
 /* media-queries */
 
-@media (min-width: 500px) {
+@media (min-width: 800px) {
     body {
         font-size: 1.125rem;
         display: flex;
